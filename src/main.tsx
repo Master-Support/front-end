@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // Páginas
 import Home from "./routes/Home";
+import SideBar from "./routes/SideBar"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/new",
+        element: <SideBar/>
       }
     ]
   }
